@@ -48,7 +48,7 @@ export default Fire = ({ navigation }) => {
 			<Text>Test</Text>
 			<Button title="Create" onPress={Create} />
 			<Button title="Read" onPress={Read} />
-			{userDoc != null && <Text> {userDoc.player}</Text>}
+			{userDoc != null && <Text> {userDoc.adam}</Text>}
 		</View>
 	);
 };

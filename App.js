@@ -22,7 +22,7 @@ export default function App() {
 
 	return (
 		<NavigationContainer>
-			<Stack.Navigator initialRouteName="Fire">
+			<Stack.Navigator initialRouteName="Login">
 				<Stack.Screen name="Fire" component={Fire} />
 				<Stack.Screen name="Login" component={Login} />
 				<Stack.Screen name="GameScreen" component={GameScreen} />
